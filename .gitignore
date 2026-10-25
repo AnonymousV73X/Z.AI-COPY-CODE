@@ -1,0 +1,24 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Zip archives (don't commit the zip, just source)
+*.zip
+
+# Editor / IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Node (if ever added)
+node_modules/
+npm-debug.log*
+
+# Secrets / env
+.env
+.env.*
+*.pem
+*.key
+secrets/
